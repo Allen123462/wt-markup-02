@@ -1,0 +1,149 @@
+/*from index html line7
+<link rel="stylesheet" href="./css/styles.css">*/
+header{
+    display: flex; 
+    align-items: center;
+}
+
+.logo {
+    margin-left: 8%;
+    font-size: 2.53vw;
+    font-family: Rolaway;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo .text {
+    color: #2196F3;
+    height: 50%;
+}
+
+.navigation {
+    margin-left: 8%;
+    font-weight: bold;
+    width: 23%;
+}
+
+.navigation a {
+    font-size: 1.2vw;
+    margin-left: 9%;
+    margin-right: 0%;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    margin-left: 7%;
+    color: #2196F3
+}
+
+header .address{
+    font-size: 1.25vw;
+    margin-left: 22%;
+    display: flex;
+    gap:0.1vw;
+}
+
+header .address .email {
+    color: #757575;
+    text-decoration: none;
+}
+
+header .address .phone_number{
+    color: #757575;
+    white-space: nowrap;
+    margin-left: 5%;
+        text-decoration: none;
+}
+
+header .email:hover {
+    color: #2196F3;
+}
+
+main .first_section{
+    background-color: rgb(47, 48, 58);
+    height: 75vh;
+}
+main .first_section .text{
+    color: #ffffff; 
+    font-size: 3.71vw;
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+    height: 12%;
+    margin-left: 22%;
+    margin-top: 25vh;
+}
+
+main .first_section .button{
+    background-color:rgb(33,150,243);
+    color: #ffffff;
+    border: 0;
+    margin-left: 50%;
+    margin-top: 2%;
+    width: 10%;
+    height: 7.5%;
+    border-radius: 5%;
+    font-size: 1vw;
+}
+
+main .description{
+    display: flex;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.description ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.description li {
+    font-size: 1.1vw;
+    width: 25%;
+    background-color: rgba(211, 211, 211, 0);
+    padding: 2%;
+    box-sizing: border-box;
+    white-space: pre-line;
+    color: #757575;
+}
+
+.description b{
+    color: #000000;
+}
+
+main .our_work{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.our_work h1{
+    font-size: 2vw;
+    margin-left: 30%;
+}
+
+.our_work ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.description li {
+    width: 20%;
+    padding: 2%;
+    box-sizing: border-box;
+}
