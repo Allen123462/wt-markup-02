@@ -1,6 +1,7 @@
 :root{
     --blue_logo_color:#2196F3;
-    --grey_color:#757575;
+    --text_grey_color:#757575;
+    --card-shadow:0px 3px 5px -3px black;
 }
 
 a {
@@ -56,8 +57,8 @@ body {
     margin-right: 20px;
     font-weight: 500;
     font-size: 14px;
-    color:var(--grey_color);
-    fill:var(--grey_color);
+    color:var(--text_grey_color);
+    fill:var(--text_grey_color);
 }
 
 .contact_info li a:hover {
@@ -107,7 +108,7 @@ body {
 
 .description ul li p {
     font-size: 14px;
-    color: var(--grey_color);
+    color: var(--text_grey_color);
 }
 
 /*main section example*/
@@ -115,6 +116,10 @@ body {
 .example h2{
     font-size: 36px;
     font-weight: 700;
+}
+
+.example ul li img{
+    border-radius: 10px;
 }
 
 .our_team {
@@ -129,9 +134,8 @@ body {
 .our_team .workers .worker{
     background-color: #FFFFFF;
     width: 270px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 3px 5px -3px black;
+    border-radius: 0 0 4px 4px;
+    box-shadow: var(--card-shadow);
     margin-bottom: 10px;
 }
 
@@ -142,7 +146,7 @@ body {
 
 .our_team .workers .worker .post {
     font-size: 16px;
-    color: var(--grey_color);
+    color: var(--text_grey_color);
 }
 
 .our_team .workers .worker a {
@@ -180,15 +184,13 @@ footer address {
 }
 
 footer address ul li a{
-    color: var(--grey_color);
+    color: var(--text_grey_color);
 }
 
-footer p {
+footer h2 {
     font-weight: 700;
     font-size: 14px;
-    font-style: normal;
     color: #FFFFFF;
-    text-transform: uppercase;
 }
 
 footer .social_media li a {
